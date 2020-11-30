@@ -1,11 +1,21 @@
 #
 
 <p align=center>
-    docker-base-image-check
+  <img width=150 src="https://i.imgur.com/C6UE5dS.png">
 </p>
 
 <p align=center>
-    is my docker image up to date ?
+  is my docker image up to date ?
+</p>
+
+<p align=center>
+  <a href="https://github.com/bamdadsabbagh/docker-base-image-check"><img src="https://img.shields.io/github/stars/bamdadsabbagh/docker-base-image-check?label=git"></a>
+  <img src="https://img.shields.io/github/license/bamdadsabbagh/docker-base-image-check">
+</p>
+
+<p align=center>
+  <img src="https://img.shields.io/github/languages/count/bamdadsabbagh/docker-base-image-check">
+  <img  src="https://img.shields.io/github/languages/top/bamdadsabbagh/docker-base-image-check">
 </p>
 
 ## Dependencies
