@@ -1,11 +1,15 @@
-#
+# <img width=25 src="https://i.imgur.com/C6UE5dS.png"> Docker Base Image Check
 
 <p align=center>
-  <img width=150 src="https://i.imgur.com/C6UE5dS.png">
+  <a href="https://github.com/bamdadsabbagh/docker-base-image-check"><img width=150 src="https://i.imgur.com/C6UE5dS.png"></a>
 </p>
 
 <p align=center>
   is my docker image up to date ?
+</p>
+
+<p align=center>
+  <img src="https://img.shields.io/badge/role-lead-blueviolet">
 </p>
 
 <p align=center>
@@ -15,7 +19,7 @@
 
 <p align=center>
   <img src="https://img.shields.io/github/languages/count/bamdadsabbagh/docker-base-image-check">
-  <img  src="https://img.shields.io/github/languages/top/bamdadsabbagh/docker-base-image-check">
+  <img src="https://img.shields.io/github/languages/top/bamdadsabbagh/docker-base-image-check">
 </p>
 
 ## Dependencies
