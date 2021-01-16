@@ -51,7 +51,8 @@ chmod +x check.sh
 ### Example
 
 ```bash
-if ./check.sh nginx:alpine registry.domain.com/path/to/image:latest; then
+#!/bin/bash
+if src/check.sh nginx:alpine docker.pkg.github.com/bamdadsabbagh/bamdadsabbagh-www/bamdadsabbagh-www:latest; then
     echo "images are up to date"
 else
     echo "image needs an update"
