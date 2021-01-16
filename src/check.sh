@@ -22,8 +22,10 @@ IMAGE=$2
 STATUS=$?
 
 # pulling latest images
-docker pull $BASE_IMAGE > /dev/null && sleep $SLEEP
-docker pull $IMAGE > /dev/null && sleep $SLEEP
+# docker pull $BASE_IMAGE > /dev/null && sleep $SLEEP
+docker pull $BASE_IMAGE && sleep $SLEEP
+# docker pull $IMAGE > /dev/null && sleep $SLEEP
+docker pull $IMAGE && sleep $SLEEP
 
 # inspecting image layers
 IMAGE_LAYERS=`docker inspect $IMAGE | jq -r .[].RootFS.Layers`
